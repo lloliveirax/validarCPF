@@ -13,7 +13,8 @@ function validarCPF(CPF) {
 
     //set dados
     const cpf = CPF.replaceAll('.', '').replace('-', '');
-    let digitosComuns, digitosValidadores = [];
+    let digitosComuns = [];
+    let digitosValidadores = [];
     for (let i = 0; i < cpf.length; i++) {
         i < 9 ? digitosComuns.push(cpf[i]) : digitosValidadores.push(cpf[i]);
     };
@@ -36,6 +37,4 @@ function validarCPF(CPF) {
     return true;
 };
 
-console.log(validarCPF('123.456.789-12'));
-console.log(validarCPF('055.774.261-70'));
-console.log(validarCPF('111.111.111-11'));
+export default validarCPF;

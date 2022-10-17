@@ -1,0 +1,13 @@
+{
+  "name": "@lloliveira.dev/validador-cpf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "validarCPF.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node validarCPF.js"
+  },
+  "author": "Leonardo Oliveira <lloliveira.dev@gmail.com>",
+  "license": "ISC"
+}
