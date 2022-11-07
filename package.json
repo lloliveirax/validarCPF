@@ -1,5 +1,5 @@
 {
-  "name": "@lloliveira.dev/validador-cpf",
+  "name": "validador-cpf-leozin",
   "version": "1.0.0",
   "description": "",
   "main": "validarCPF.js",
